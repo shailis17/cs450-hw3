@@ -1,0 +1,64 @@
+.app {
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    background-color: rgb(219, 219, 219,0.8);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: auto;
+}
+
+.graph {
+    align-items: center;
+    justify-content: center;
+}
+
+.filter {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.dcc {
+    width: 100px;
+    align-items: center;
+}
+
+.slider .rc-slider-track {
+    background-color: gray; /* Dark gray color */
+}
+
+.slider .rc-slider-handle {
+    border-color: gray; /* Dark gray color */
+}
+
+.slider .rc-slider-mark {
+    color: black;
+}
+
+.table-holder {
+    width: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Style for table headers */
+.table th {
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(219, 219, 219,0.8);
+}
+
+/* Style for table cells */
+.table td {
+    text-align: center;
+    border: 1px solid black;
+}
