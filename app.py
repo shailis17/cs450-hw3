@@ -15,6 +15,7 @@ min_sub = df['Subjectivity'].min()
 max_sub = df['Subjectivity'].max()
 
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.Div([
