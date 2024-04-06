@@ -1,6 +1,5 @@
 import dash
 from dash import dcc, html, dash_table, Input, Output
-import seaborn as sns
 import plotly.express as px
 import pandas as pd
 
